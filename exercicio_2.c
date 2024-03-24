@@ -2,7 +2,7 @@
 int main(){
     float eleitores, votos;
     printf ("digite o numero de eleitores:\n");
-    scanf ("%d", &eleitores);
+    scanf ("%f", &eleitores);
     votos = (eleitores / 2) + 1;
-    printf("Numero de votos necessarios no primeiro turno: %d\n", votos);
+    printf("Numero de votos necessarios no primeiro turno: %0f\n", votos);
 }
