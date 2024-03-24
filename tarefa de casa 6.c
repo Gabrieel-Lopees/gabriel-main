@@ -1,6 +1,7 @@
 #include<stdio.h>
-
+#include<locale.h>
 int main() {
+    setlocale(LC_ALL,"Portuguese");
     int valor, nota100, nota50, nota20, nota10, nota5, nota2, nota1;
 
     printf("digite o valor em reais: ");
