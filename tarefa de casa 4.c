@@ -11,7 +11,7 @@ int main() {
     printf("Digite a data atual (DD MM AAAAA): ");
     scanf("%d %d %d", &diaHj, &mesHj, &anoHj);
 
-    diasVividos = (anoHj - ano) * 365 + (mesHj - mesHj) * 30 + (diaHj -  dia);
+    diasVividos = (anoHj - ano) * 365 + (mesHj - mes) * 30 + (diaHj -  dia);
     printf("O numero de dias vividos eh: %d\n", diasVividos);
     
     return 0;
