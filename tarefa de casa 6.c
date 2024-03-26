@@ -7,7 +7,7 @@ int main() {
     printf("digite o valor em reais: ");
     scanf("%d", &valor);
 
-    nota100 = valor / 100;
+    nota100 = (valor / 100);
     valor %= 100;
 
     nota50 = valor / 50;
