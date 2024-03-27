@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 main(){
     float raio, perimetro, area;
     printf ("Digite o valor do raio:\n");
