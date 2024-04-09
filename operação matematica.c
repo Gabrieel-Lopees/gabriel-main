@@ -3,8 +3,8 @@
 main(){
     float inteiro1, inteiro2, resultado;
     char caractere;
-    printf("Digite a operacao que deseja fazer (+, -, *, /) com dois inteiros: ");
-    scanf("%f %c %f", &inteiro1, &caractere, &inteiro2);
+        printf("Digite a operacao que deseja fazer (+, -, *, /) com dois inteiros: ");
+        scanf("%f %c %f", &inteiro1, &caractere, &inteiro2);
 
     switch (caractere) {
     case '+':
@@ -24,7 +24,7 @@ main(){
             resultado = inteiro1 / inteiro2;
         } else {
             printf("Erro: Divisao por zero nao eh permitida");
-            return 1;
+                return 1;
         }
     }
     printf("o resultado da operazaum eh: %g", resultado);

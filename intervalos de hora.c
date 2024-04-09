@@ -2,8 +2,8 @@
 
 main() {
     float hora, minuto, hora2, minuto2, diff;
-    printf("Digite dois horarios diferentes(HH:MM HH:MM): ");
-    scanf("%f:%f" "%f:%f", &hora, &minuto, &hora2, &minuto2);
+        printf("Digite dois horarios diferentes(HH:MM HH:MM): ");
+        scanf("%f:%f" "%f:%f", &hora, &minuto, &hora2, &minuto2);
 
     minuto = (hora * 60) + minuto;
     minuto2 = (hora2 * 60) + minuto2;
