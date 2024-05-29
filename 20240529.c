@@ -8,4 +8,11 @@ main() {
         scanf("%d", &vet[i]);
     printf ("Digite o valor para procurar no vetor: ");
         scanf("%d", &valor);
+
+    for (i = 0; i < TAM; i++) {
+        if(vet[i] == valor)
+            printf("O Valor %d esta no vetor, na posicao %d.", vet[i], i);
+        else
+            printf("Nao achou.");
+    }
 }
