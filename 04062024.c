@@ -16,7 +16,7 @@ main(){
     }
     
     if (achou)
-        printf("Ha Repetição.");
+        printf("Ha Repetiçao.");
     else
-        printf("Nao ha repetição");
+        printf("Nao ha repetiçao");
 }
