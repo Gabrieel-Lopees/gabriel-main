@@ -7,6 +7,7 @@ int mdc(int a, int b) {
     return mdc(b, a % b);
 }
 
+
 // simplificar 
 simplificar(int *numerador, int *denominador) {
     int divisor = mdc(*numerador, *denominador);
