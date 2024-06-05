@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // MDC
-int mdc(int a, int b) {
+int a, b;
+int mdc(a, b) {
     if (b == 0)
         return a;
     return mdc(b, a % b);
