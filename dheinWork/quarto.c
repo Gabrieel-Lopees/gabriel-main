@@ -7,10 +7,10 @@ int main() {
     printf("Digite 4 valores inteiros:\n");
     scanf("%d %d %d %d", &a, &b, &c, &d);
 
-    int values[4] = {a, b, c, d};
+    int valores[4] = {a, b, c, d};
 
     for (i = 0; i < 4; i++) {
-        int valorAtual = values[i];
+        int valorAtual = valores[i];
         int menorDigito = 9;
 
         while (valorAtual > 0) {
