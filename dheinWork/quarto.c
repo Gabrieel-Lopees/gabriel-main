@@ -20,7 +20,7 @@ int main() {
             }
             valorAtual /= 10;
         }
-        
+
         menor[i] = menorDigito;
     }
 
