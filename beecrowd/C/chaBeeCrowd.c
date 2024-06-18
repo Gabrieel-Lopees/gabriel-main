@@ -1,17 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
-main(){
-    int T, acertos;
-    int A, B, C, D, E;
+int main() {
+    int numero, horas;
+    float valor, salario;
 
-    scanf("%d\n", &T);
-    scanf("%d" "%d" "%d" "%d" "%d", &A, &B, &C, &D, &E);
+    scanf("%d %d %f", &numero, &horas, &valor);
+    salario = horas * valor;
 
-    if (A == T) acertos++;
-    if (B == T) acertos++;
-    if (C == T) acertos++;
-    if (D == T) acertos++;
-    if (E == T) acertos++;
+    printf("NUMBER = %d\n", numero);
+    printf("SALARY = $ %.2f\n", salario);
 
-    printf("%d\n", acertos);
+    return 0;
 }
