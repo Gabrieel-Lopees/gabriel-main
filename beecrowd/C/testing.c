@@ -1,11 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int A, B, C, D, diferenca=0;
-    scanf("%d %d %d %d", &A, &B, &C, &D);
+    char vendedor;
+    double salarioFixo, dinheiroVendas;
+    scanf("%s", &vendedor);
+    scanf("%lf", &salarioFixo);
+    scanf("%lf", &dinheiroVendas);
 
-    diferenca = (A * B) - (C * D);
-    printf("DIFERENCA = %d\n", diferenca);
+    double TOTAL;
+    TOTAL = salarioFixo + (dinheiroVendas * 0.15);
 
+    printf("TOTAL = R$ %.2lf\n", TOTAL);
     return 0;
 }
