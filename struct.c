@@ -1,18 +1,22 @@
-//struct 
+//struct
 
 #include<stdio.h>
+#include<string.h>
 
-int main(){
-
-    struct paciente{
-    char nome[30];
-    int dia, mes, ano;
-    float peso;
-    float altura;
+struct elemento{
+    int x;
+    char str[20];
     };
-    
-struct paciente p, p1 ;
 
-
-
+main(){
+struct elemento a, b;
+strcpy (a.str, "string");
+a.x = 5;
+printf("\n\nOriginal: %d - %s", a.x, a.str);
+b = a;
+printf ("\nCopia: %d - %s", b.x, b.str);
+b.str[1] = 'p';
+printf ("\n\nAPOS ALTERAR STRING");
+printf ("\nOriginal: %d = %s", a.x, a.str);
+printf ("\nCopia: %d - %s", b.x, b.str);
 }
