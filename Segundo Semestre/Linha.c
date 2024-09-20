@@ -18,7 +18,7 @@ int main() {
     }
 
     if (max > 0) {
-        printf("%s", maior);
+        printf("%s eh a maior", maior);
     }
 
     return 0;
