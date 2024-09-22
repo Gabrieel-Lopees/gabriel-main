@@ -1,9 +1,7 @@
 #include <stdio.h>
-
+#define PI 3.14159
 int main() {
     double A, B, C;
-    const double PI = 3.14159;
-
     scanf("%lf %lf %lf", &A, &B, &C);
 
     double areaTriangulo = (A * C) / 2.0;
