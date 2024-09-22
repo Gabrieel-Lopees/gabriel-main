@@ -13,5 +13,4 @@ int main(){
     printf("Para vencer no primeiro turno, pablo marssal precisa de pelo menos %.0f votos. \n", votosNecessarios);
 
     return 0;
-
 }
