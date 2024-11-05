@@ -8,7 +8,7 @@ int main (void) {
 */
 
 int main (){
-	int num = 112;
+	int num = -112;
 
 	for (int i = 32; i <= 126; i++){
 		printf("Decimal: %d \t caractere: %c\n", i, i);
