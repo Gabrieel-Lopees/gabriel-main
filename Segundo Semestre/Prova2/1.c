@@ -1,18 +1,11 @@
 #include<stdio.h>
     
-    int soma_vetor(int vetor[], int tamanho) {
-        int soma = 0;
-        for (int i = 0; i < tamanho; i++){
-            soma += vetor[i];
-        }
-        return soma;
-    }
-
 int main() 
 {
-    int numeros[8] = {1, 2, 3, 4, 5, 6, 7, 8};
-    printf("Soma: %d", soma_vetor(numeros, 5));
-    printf("Soma: %d", soma_vetor(numeros, 7));
-    return 0;
+    int valores[7] = {10, 20, 30, 40, 50, 60, 70,};
+    printf("Elementos:\n");
+    for (int i = 0; i < 7; i++) {
+        printf("Valores[%d]: %d\n", i, valores[i]);
+    }
 }
 
