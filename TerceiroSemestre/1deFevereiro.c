@@ -3,10 +3,13 @@
 /* Beecrowdzudo */
 
 int main() {
-    int T;
-    int a, b, c, d, e;
-    scanf("%d", &T);
-    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
-    printf("fim");
+   int distancia;
+   int minutos;
+   
+   printf("insira a distancia: ");
+   scanf("%d", &distancia);
+   
+   minutos = distancia * 2;
 
+   printf("%d minutos", minutos);
 }
