@@ -3,17 +3,15 @@
 /* Beecrowdzudo */
 
 int main() {
-   int time;
-   int speed;
-   float liters;
-   float distance;
+   int idadeDias;
+   int ano, mes, dia;
+   scanf("%d", &idadeDias);
 
-   scanf("%d", &time);
-   scanf("%d", &speed);
+   ano = idadeDias / 365;
+   idadeDias %= 365;
+   mes = idadeDias / 30;
+   idadeDias %= 30;
 
-   distance = speed * time;
-   liters = distance/12;
 
-   printf("%.3f", liters);
-
+   printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n", ano, mes, idadeDias);
 }
